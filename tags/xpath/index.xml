@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xpath on Corcel</title>
+    <link>http://corcel.io/tags/xpath/index.xml</link>
+    <description>Recent content in Xpath on Corcel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Released under my prefered license</copyright>
+    <atom:link href="http://corcel.io/tags/xpath/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>XPath</title>
+      <link>http://corcel.io/extractors/xpath/</link>
+      <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
+      
+      <guid>http://corcel.io/extractors/xpath/</guid>
+      <description>
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;extractors:
+    - type: XPath
+      name: isbn
+      key: http:response:body
+      xpath: library/*/isbn 
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

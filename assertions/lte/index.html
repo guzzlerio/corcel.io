@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"  lang="en-gb">
+<title>Less Than or Equal - Corcel</title>
+<meta name="generator" content="Hugo 0.18-DEV" />
+
+
+<meta name="description" content="Documentation for Corcel">
+
+<link rel="canonical" href="http://corcel.io/assertions/lte/">
+
+<meta name="author" content="Guzzler.io">
+
+<meta name="generator" content="Hugo 0.18-DEV" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:url" content="http://corcel.io/assertions/lte/">
+<meta property="og:title" content="Corcel">
+
+<meta name="apple-mobile-web-app-title" content="Corcel">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" type="image/x-icon" href="http://corcel.io/images/favicon.ico">
+<link rel="icon" type="image/x-icon" href="http://corcel.io/images/favicon.ico">
+
+
+<link rel="stylesheet" href="http://corcel.io/css/bootstrap.cosmo.min.css" media="screen">
+<link rel="stylesheet" href="http://corcel.io/css/bootstrap-treeview.min.css" media="screen">
+<link rel="stylesheet" href="http://corcel.io/css/custom.css">
+<link rel="stylesheet" href="http://corcel.io/css/pygments.css">
+
+<link rel="stylesheet" href="http://corcel.io/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://corcel.io/css/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+
+    </head>
+    <body>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+  <div class="navbar-header">
+    <a href="http://corcel.io" class="pull-left">
+      <img src="http://corcel.io/images/corcel-logo.png" class="logo" />
+    </a>
+    <a href="http://corcel.io" class="navbar-brand">Corcel</a>
+    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <div class="navbar-collapse collapse" id="navbar-main">
+    <ul class="nav navbar-nav">
+      
+    </ul>
+  </div>
+</div>
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    
+
+<div class="list-group table-of-contents">
+
+    
+    <a class="list-group-item" href=""><b>Setup</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/setup/installation/">Installation </a>
+        
+        <a class="list-group-item" href="http://corcel.io/setup/getting-started/">Getting Started </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>Usage</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/usage/command-line/">Command line options </a>
+        
+        <a class="list-group-item" href="http://corcel.io/usage/configuration/">Configuration </a>
+        
+        <a class="list-group-item" href="http://corcel.io/usage/using-a-scenario-file/">Using a Scenario File </a>
+        
+        <a class="list-group-item" href="http://corcel.io/usage/using-a-url-file/">Using a URL File </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>Actions</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/actions/amqp/">AMQP </a>
+        
+        <a class="list-group-item" href="http://corcel.io/actions/httprequest/">HttpRequest </a>
+        
+        <a class="list-group-item" href="http://corcel.io/actions/tcp/">TCP </a>
+        
+    </div>
+    
+
+    <a class="list-group-item child-active" href=""><b>Assertions</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/empty/">Empty </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/exact/">Exact </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/gt/">Greater Than </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/gte/">Greater Than or Equal </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/lt/">Less Than </a>
+        
+        <a class="list-group-item active" href="http://corcel.io/assertions/lte/">Less Than or Equal </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/not-empty/">Not Empty </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/not-equal/">Not Equal </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>Extractors</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/extractors/key-value/">Key Value </a>
+        
+        <a class="list-group-item" href="http://corcel.io/extractors/regex/">Regex </a>
+        
+        <a class="list-group-item" href="http://corcel.io/extractors/xpath/">XPath </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>Output</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/output/statistics/">Statistics </a>
+        
+        <a class="list-group-item" href="http://corcel.io/output/history/">History </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>DSL</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/dsl/javascript/">JavaScript DSL </a>
+        
+    </div>
+    
+
+</div>
+
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-8">
+                    <div>
+                        <h1 id="main">Less Than or Equal</h1>
+                    </div>
+                    
+
+<h2 id="usage">Usage:</h2>
+
+<pre><code class="language-yaml">assertions:
+    - type: LessThanOrEqual
+      key: http:response:headers:Content-Length
+      expected: 512
+</code></pre>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+    <div class="row">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3">
+            <footer>
+                <div class="navbar navbar-default navbar-fixed-bottom">
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+
+
+    </body>
+</html>
+<script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="http://corcel.io/js/application.js"></script>
+<script type="text/javascript" src="http://corcel.io/js/bootstrap-treeview.min.js"></script>
+<script type="text/javascript" src="http://corcel.io/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="http://corcel.io/js/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="http://corcel.io/js/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="http://corcel.io/js/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
+
