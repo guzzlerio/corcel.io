@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"  lang="en-gb">
+<title>Command Line Options - Corcel</title>
+<meta name="generator" content="Hugo 0.18-DEV" />
+
+
+<meta name="description" content="Documentation for Corcel">
+
+<link rel="canonical" href="http://corcel.io/usage/command-line/">
+
+<meta name="author" content="Guzzler.io">
+
+<meta name="generator" content="Hugo 0.18-DEV" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:url" content="http://corcel.io/usage/command-line/">
+<meta property="og:title" content="Corcel">
+
+<meta name="apple-mobile-web-app-title" content="Corcel">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" type="image/x-icon" href="http://corcel.io/images/favicon.ico">
+<link rel="icon" type="image/x-icon" href="http://corcel.io/images/favicon.ico">
+
+
+<link rel="stylesheet" href="http://corcel.io/css/bootstrap.cosmo.min.css" media="screen">
+<link rel="stylesheet" href="http://corcel.io/css/bootstrap-treeview.min.css" media="screen">
+<link rel="stylesheet" href="http://corcel.io/css/custom.css">
+<link rel="stylesheet" href="http://corcel.io/css/pygments.css">
+
+<link rel="stylesheet" href="http://corcel.io/css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://corcel.io/css/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+
+    </head>
+    <body>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+  <div class="navbar-header">
+    <a href="http://corcel.io" class="pull-left">
+      <img src="http://corcel.io/images/corcel-logo.png" class="logo" />
+    </a>
+    <a href="http://corcel.io" class="navbar-brand">Corcel</a>
+    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <div class="navbar-collapse collapse" id="navbar-main">
+    <ul class="nav navbar-nav">
+      
+    </ul>
+  </div>
+</div>
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                    
+
+<div class="list-group table-of-contents">
+
+    
+    <a class="list-group-item" href=""><b>Setup</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/setup/installation/">Installation </a>
+        
+        <a class="list-group-item" href="http://corcel.io/setup/getting-started/">Getting Started </a>
+        
+    </div>
+    
+
+    <a class="list-group-item child-active" href=""><b>Usage</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item active" href="http://corcel.io/usage/command-line/">Command line options </a>
+        
+        <a class="list-group-item" href="http://corcel.io/usage/configuration/">Configuration </a>
+        
+        <a class="list-group-item" href="http://corcel.io/usage/using-a-scenario-file/">Using a Scenario File </a>
+        
+        <a class="list-group-item" href="http://corcel.io/usage/using-a-url-file/">Using a URL File </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>Actions</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/actions/amqp/">AMQP </a>
+        
+        <a class="list-group-item" href="http://corcel.io/actions/httprequest/">HttpRequest </a>
+        
+        <a class="list-group-item" href="http://corcel.io/actions/tcp/">TCP </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>Assertions</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/empty/">Empty </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/exact/">Exact </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/gt/">Greater Than </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/gte/">Greater Than or Equal </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/lt/">Less Than </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/lte/">Less Than or Equal </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/not-empty/">Not Empty </a>
+        
+        <a class="list-group-item" href="http://corcel.io/assertions/not-equal/">Not Equal </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>Extractors</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/extractors/key-value/">Key Value </a>
+        
+        <a class="list-group-item" href="http://corcel.io/extractors/regex/">Regex </a>
+        
+        <a class="list-group-item" href="http://corcel.io/extractors/xpath/">XPath </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>Output</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/output/statistics/">Statistics </a>
+        
+        <a class="list-group-item" href="http://corcel.io/output/history/">History </a>
+        
+    </div>
+    
+
+    <a class="list-group-item" href=""><b>DSL</b>
+    </a>
+    
+    <div class="list-group">
+        
+        <a class="list-group-item" href="http://corcel.io/dsl/javascript/">JavaScript DSL </a>
+        
+    </div>
+    
+
+</div>
+
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-8">
+                    <div>
+                        <h1 id="main">Command Line Options</h1>
+                    </div>
+                    
+
+<h2 id="commands">Commands</h2>
+
+<h3 id="run"><code>run</code></h3>
+
+<p>Run a Corcel test. Can either be from a <a href="http://corcel.io/usage/using-a-scenario-file">scenario file</a> or a <a href="http://corcel.io/usage/using-a-url-file">url file</a>.</p>
+
+<h3 id="server"><code>server</code></h3>
+
+<p>Server will start up a Corcel Http Server for use in distributed load tests. <strong>This is not fully implemented at present</strong>.</p>
+
+<hr />
+
+<h2 id="command-line-options">Command line options</h2>
+
+<p><code>--summary</code></p>
+
+<p>Outputs a summary of the test which includes the following information</p>
+
+<ul>
+<li>Running Time</li>
+<li>Throughput (requests per second)</li>
+<li>Total Requests</li>
+<li>Number of Errors</li>
+<li>Availability (Total Requests vs. Number of Errors)</li>
+<li>Bytes Sent</li>
+<li>Bytes Received</li>
+<li>Mean Response Time</li>
+<li>Min Response Time</li>
+<li>Max Response Time</li>
+</ul>
+
+<p><code>--duration=0s</code></p>
+
+<p>Sets the length of time the test will last.  By default the test will run until all urls have been executed or an execution plan has been completed a single time.  See <a href="#valid-time-units">Valid Timeunits</a> for the value of this option.</p>
+
+<p><code>--wait-time=0s</code></p>
+
+<p>Sets the length of time execution will wait between a url or a scenario step.  If multiple workers are configured this value will apply to each worker.  See <a href="#valid-time-units">Valid Timeunits</a> for the value of this option.</p>
+
+<p><code>--workers=1</code></p>
+
+<p>Sets the number of concurrent workers to use to execute the test.</p>
+
+<ul>
+<li>If using a URL file each worker will visit every URL in the file (unless a duration is set)</li>
+<li>If using a Scenario file each worker will execute each step of each job</li>
+</ul>
+
+<p><code>--random</code></p>
+
+<p>Sets the selection of the URL or the Job to be random.</p>
+
+<p><code>--progress</code></p>
+
+<p>Sets the progress bar to use. Available options are: <code>none|bar|logo</code></p>
+
+<h3 id="a-name-valid-time-units-valid-timeunits-a"><a name="valid-time-units">Valid Timeunits</a></h3>
+
+<p>A duration string is a possibly signed sequence of decimal numbers, each with optional fraction and a unit suffix, such as &ldquo;300ms&rdquo;, &ldquo;-1.5h&rdquo; or &ldquo;2h45m&rdquo;. Valid time units are &ldquo;ns&rdquo;, &ldquo;us&rdquo; (or &ldquo;µs&rdquo;), &ldquo;ms&rdquo;, &ldquo;s&rdquo;, &ldquo;m&rdquo;, &ldquo;h&rdquo;.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+    <div class="row">
+        <div class="col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3">
+            <footer>
+                <div class="navbar navbar-default navbar-fixed-bottom">
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+
+
+    </body>
+</html>
+<script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="http://corcel.io/js/application.js"></script>
+<script type="text/javascript" src="http://corcel.io/js/bootstrap-treeview.min.js"></script>
+<script type="text/javascript" src="http://corcel.io/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="http://corcel.io/js/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="http://corcel.io/js/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="http://corcel.io/js/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
+
