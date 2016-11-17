@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assertions on Corcel</title>
-    <link>http://corcel.io/assertions/index.xml</link>
+    <link>https://corcel.io/assertions/index.xml</link>
     <description>Recent content in Assertions on Corcel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Released under my prefered license</copyright>
     <lastBuildDate>Wed, 24 Aug 2016 21:18:21 +0100</lastBuildDate>
-    <atom:link href="http://corcel.io/assertions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://corcel.io/assertions/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Empty</title>
-      <link>http://corcel.io/assertions/empty/</link>
+      <link>https://corcel.io/assertions/empty/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/assertions/empty/</guid>
+      <guid>https://corcel.io/assertions/empty/</guid>
       <description>
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>Exact</title>
-      <link>http://corcel.io/assertions/exact/</link>
+      <link>https://corcel.io/assertions/exact/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/assertions/exact/</guid>
+      <guid>https://corcel.io/assertions/exact/</guid>
       <description>
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>Greater Than</title>
-      <link>http://corcel.io/assertions/gt/</link>
+      <link>https://corcel.io/assertions/gt/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/assertions/gt/</guid>
+      <guid>https://corcel.io/assertions/gt/</guid>
       <description>
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
@@ -65,10 +65,10 @@
     
     <item>
       <title>Greater Than or Equal</title>
-      <link>http://corcel.io/assertions/gte/</link>
+      <link>https://corcel.io/assertions/gte/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/assertions/gte/</guid>
+      <guid>https://corcel.io/assertions/gte/</guid>
       <description>
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
@@ -83,10 +83,10 @@
     
     <item>
       <title>Less Than</title>
-      <link>http://corcel.io/assertions/lt/</link>
+      <link>https://corcel.io/assertions/lt/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/assertions/lt/</guid>
+      <guid>https://corcel.io/assertions/lt/</guid>
       <description>
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
@@ -101,10 +101,10 @@
     
     <item>
       <title>Less Than or Equal</title>
-      <link>http://corcel.io/assertions/lte/</link>
+      <link>https://corcel.io/assertions/lte/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/assertions/lte/</guid>
+      <guid>https://corcel.io/assertions/lte/</guid>
       <description>
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
@@ -119,10 +119,10 @@
     
     <item>
       <title>Not Empty</title>
-      <link>http://corcel.io/assertions/not-empty/</link>
+      <link>https://corcel.io/assertions/not-empty/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/assertions/not-empty/</guid>
+      <guid>https://corcel.io/assertions/not-empty/</guid>
       <description>
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
@@ -136,10 +136,10 @@
     
     <item>
       <title>Not Equal</title>
-      <link>http://corcel.io/assertions/not-equal/</link>
+      <link>https://corcel.io/assertions/not-equal/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/assertions/not-equal/</guid>
+      <guid>https://corcel.io/assertions/not-equal/</guid>
       <description>
 
 &lt;h2 id=&#34;usage&#34;&gt;Usage:&lt;/h2&gt;
