@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Setups on Corcel</title>
-    <link>http://corcel.io/setup/index.xml</link>
+    <link>https://corcel.io/setup/index.xml</link>
     <description>Recent content in Setups on Corcel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Released under my prefered license</copyright>
     <lastBuildDate>Wed, 24 Aug 2016 16:27:03 +0100</lastBuildDate>
-    <atom:link href="http://corcel.io/setup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://corcel.io/setup/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Getting Started</title>
-      <link>http://corcel.io/setup/getting-started/</link>
+      <link>https://corcel.io/setup/getting-started/</link>
       <pubDate>Wed, 24 Aug 2016 16:27:03 +0100</pubDate>
       
-      <guid>http://corcel.io/setup/getting-started/</guid>
+      <guid>https://corcel.io/setup/getting-started/</guid>
       <description>&lt;p&gt;To get started create a web server using a simple node.js script.&lt;/p&gt;
 
 &lt;p&gt;Add the following to a file called &lt;strong&gt;server.js&lt;/strong&gt;&lt;/p&gt;
@@ -35,7 +35,7 @@ http.createServer((req, res) =&amp;gt; {
 });
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Next create a &lt;a href=&#34;http://corcel.io/usage/using-a-url-file&#34;&gt;URL file&lt;/a&gt; called &lt;strong&gt;urls.txt&lt;/strong&gt; and paste the following lines inside:&lt;/p&gt;
+&lt;p&gt;Next create a &lt;a href=&#34;https://corcel.io/usage/using-a-url-file&#34;&gt;URL file&lt;/a&gt; called &lt;strong&gt;urls.txt&lt;/strong&gt; and paste the following lines inside:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-txt&#34;&gt;http://localhost:1337/people
 http://localhost:1337/principles
@@ -71,16 +71,16 @@ http://localhost:1337/processes
 ╚═══════════════════════════════════════════════════════════════════╝
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Corcel can be used currently with a &lt;a href=&#34;http://corcel.io/usage/using-a-url-file&#34;&gt;URL file&lt;/a&gt; or a &lt;a href=&#34;http://corcel.io/usage/using-a-scenario-file&#34;&gt;Scenario File&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Corcel can be used currently with a &lt;a href=&#34;https://corcel.io/usage/using-a-url-file&#34;&gt;URL file&lt;/a&gt; or a &lt;a href=&#34;https://corcel.io/usage/using-a-scenario-file&#34;&gt;Scenario File&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Installation</title>
-      <link>http://corcel.io/setup/installation/</link>
+      <link>https://corcel.io/setup/installation/</link>
       <pubDate>Wed, 24 Aug 2016 16:27:03 +0100</pubDate>
       
-      <guid>http://corcel.io/setup/installation/</guid>
+      <guid>https://corcel.io/setup/installation/</guid>
       <description>&lt;p&gt;Go to &lt;a href=&#34;downloads.corcel.io&#34;&gt;downloads.corcel.io&lt;/a&gt; and download the corcel package for your operating system.&lt;/p&gt;
 </description>
     </item>

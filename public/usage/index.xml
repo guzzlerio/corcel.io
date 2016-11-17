@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Usages on Corcel</title>
-    <link>http://corcel.io/usage/index.xml</link>
+    <link>https://corcel.io/usage/index.xml</link>
     <description>Recent content in Usages on Corcel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Released under my prefered license</copyright>
     <lastBuildDate>Tue, 20 Sep 2016 14:46:45 +0100</lastBuildDate>
-    <atom:link href="http://corcel.io/usage/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://corcel.io/usage/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Using a URL File</title>
-      <link>http://corcel.io/usage/using-a-url-file/</link>
+      <link>https://corcel.io/usage/using-a-url-file/</link>
       <pubDate>Tue, 20 Sep 2016 14:46:45 +0100</pubDate>
       
-      <guid>http://corcel.io/usage/using-a-url-file/</guid>
+      <guid>https://corcel.io/usage/using-a-url-file/</guid>
       <description>&lt;p&gt;The format of the lines in the URL file follows the CURL arguments. The arguments currently support include:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>Using a Scenario File</title>
-      <link>http://corcel.io/usage/using-a-scenario-file/</link>
+      <link>https://corcel.io/usage/using-a-scenario-file/</link>
       <pubDate>Wed, 24 Aug 2016 21:05:40 +0100</pubDate>
       
-      <guid>http://corcel.io/usage/using-a-scenario-file/</guid>
+      <guid>https://corcel.io/usage/using-a-scenario-file/</guid>
       <description>&lt;p&gt;An example scenario file :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;---
@@ -70,17 +70,17 @@
     
     <item>
       <title>Command Line Options</title>
-      <link>http://corcel.io/usage/command-line/</link>
+      <link>https://corcel.io/usage/command-line/</link>
       <pubDate>Wed, 24 Aug 2016 16:26:56 +0100</pubDate>
       
-      <guid>http://corcel.io/usage/command-line/</guid>
+      <guid>https://corcel.io/usage/command-line/</guid>
       <description>
 
 &lt;h2 id=&#34;commands&#34;&gt;Commands&lt;/h2&gt;
 
 &lt;h3 id=&#34;run&#34;&gt;&lt;code&gt;run&lt;/code&gt;&lt;/h3&gt;
 
-&lt;p&gt;Run a Corcel test. Can either be from a &lt;a href=&#34;http://corcel.io/usage/using-a-scenario-file&#34;&gt;scenario file&lt;/a&gt; or a &lt;a href=&#34;http://corcel.io/usage/using-a-url-file&#34;&gt;url file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Run a Corcel test. Can either be from a &lt;a href=&#34;https://corcel.io/usage/using-a-scenario-file&#34;&gt;scenario file&lt;/a&gt; or a &lt;a href=&#34;https://corcel.io/usage/using-a-url-file&#34;&gt;url file&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;server&#34;&gt;&lt;code&gt;server&lt;/code&gt;&lt;/h3&gt;
 
@@ -140,10 +140,10 @@
     
     <item>
       <title>Configuration</title>
-      <link>http://corcel.io/usage/configuration/</link>
+      <link>https://corcel.io/usage/configuration/</link>
       <pubDate>Wed, 24 Aug 2016 16:26:56 +0100</pubDate>
       
-      <guid>http://corcel.io/usage/configuration/</guid>
+      <guid>https://corcel.io/usage/configuration/</guid>
       <description>
 
 &lt;h2 id=&#34;coming-soon&#34;&gt;Coming soon&lt;/h2&gt;

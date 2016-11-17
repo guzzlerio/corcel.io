@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Actions on Corcel</title>
-    <link>http://corcel.io/actions/index.xml</link>
+    <link>https://corcel.io/actions/index.xml</link>
     <description>Recent content in Actions on Corcel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Released under my prefered license</copyright>
     <lastBuildDate>Wed, 24 Aug 2016 21:18:21 +0100</lastBuildDate>
-    <atom:link href="http://corcel.io/actions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://corcel.io/actions/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AMQP (Coming Soon)</title>
-      <link>http://corcel.io/actions/amqp/</link>
+      <link>https://corcel.io/actions/amqp/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/actions/amqp/</guid>
+      <guid>https://corcel.io/actions/amqp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HttpRequest</title>
-      <link>http://corcel.io/actions/httprequest/</link>
+      <link>https://corcel.io/actions/httprequest/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/actions/httprequest/</guid>
+      <guid>https://corcel.io/actions/httprequest/</guid>
       <description>
 
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
@@ -57,10 +57,10 @@
     
     <item>
       <title>TCP (Coming Soon)</title>
-      <link>http://corcel.io/actions/tcp/</link>
+      <link>https://corcel.io/actions/tcp/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/actions/tcp/</guid>
+      <guid>https://corcel.io/actions/tcp/</guid>
       <description></description>
     </item>
     

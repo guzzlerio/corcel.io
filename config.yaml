@@ -1,4 +1,4 @@
-baseUrl:        http://corcel.io
+baseUrl:        https://corcel.io
 languageCode:   en-gb
 title:          Corcel
 metaDataFormat: yaml
@@ -26,7 +26,6 @@ params:
       URL:     http://docs.corcel.io
     - Label:   Feedback
       URL:     https://corcel.io/feedback
-
   social:
     github:    guzzlerio
 menu:

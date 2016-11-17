@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tcp on Corcel</title>
-    <link>http://corcel.io/tags/tcp/index.xml</link>
+    <link>https://corcel.io/tags/tcp/index.xml</link>
     <description>Recent content in Tcp on Corcel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Released under my prefered license</copyright>
-    <atom:link href="http://corcel.io/tags/tcp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://corcel.io/tags/tcp/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>TCP (Coming Soon)</title>
-      <link>http://corcel.io/actions/tcp/</link>
+      <link>https://corcel.io/actions/tcp/</link>
       <pubDate>Wed, 24 Aug 2016 21:18:21 +0100</pubDate>
       
-      <guid>http://corcel.io/actions/tcp/</guid>
+      <guid>https://corcel.io/actions/tcp/</guid>
       <description></description>
     </item>
     
