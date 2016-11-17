@@ -102,11 +102,6 @@
   </url>
   
   <url>
-    <loc>http://corcel.io/</loc>
-    <lastmod>2016-08-24T19:59:36+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://corcel.io/setup/getting-started/</loc>
     <lastmod>2016-08-24T16:27:03+01:00</lastmod>
   </url>
@@ -128,6 +123,10 @@
   
   <url>
     <loc>http://corcel.io/downloads/</loc>
+  </url>
+  
+  <url>
+    <loc>http://corcel.io/</loc>
   </url>
   
 </urlset>
