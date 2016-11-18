@@ -1,7 +1,6 @@
 baseUrl:        https://corcel.io
 languageCode:   en-gb
 title:          Corcel
-metaDataFormat: yaml
 theme:          theme.corcel.io
 canonifyUrls:   true
 params:
@@ -19,29 +18,16 @@ params:
   # favicon:     favicon.ico
 
   permalink:   "#"
-  siteLinks:
-    - Label:   Downloads
-      URL:     https://corcel.io/downloads
-    - Label:   Documentation
-      URL:     http://docs.corcel.io
-    - Label:   Feedback
-      URL:     https://corcel.io/feedback
+  topMenu:
+      - Label:   Downloads
+        URL:     https://corcel.io/downloads
+      - Label:   Documentation
+        URL:     http://docs.corcel.io
+      - Label:   Blog
+        URL:     https://blog.corcel.io
+      - Label:   Feedback
+        URL:     https://corcel.io/feedback
+
   social:
     github:    guzzlerio
-menu:
-  main:
-    - name: Setup
-      weight: 1
-    - name: Usage
-      weight: 2
-    - name: Actions
-      weight: 3
-    - name: Assertions
-      weight: 4
-    - name: Extractors
-      weight: 5
-    - name: Output
-      weight: 6
-    - name: DSL
-      weight: 7
 ...
