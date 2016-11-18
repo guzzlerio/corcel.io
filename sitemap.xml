@@ -3,130 +3,16 @@
   
   <url>
     <loc>https://corcel.io/</loc>
-    <lastmod>2016-09-20T14:46:45+01:00</lastmod>
+    <lastmod>2015-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://corcel.io/usage/using-a-url-file/</loc>
-    <lastmod>2016-09-20T14:46:45+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/actions/amqp/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/assertions/empty/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/assertions/exact/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/assertions/gt/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/assertions/gte/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/output/history/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/actions/httprequest/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/dsl/javascript/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/extractors/key-value/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/assertions/lt/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/assertions/lte/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/assertions/not-empty/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/assertions/not-equal/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/extractors/regex/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/output/statistics/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/actions/tcp/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/extractors/xpath/</loc>
-    <lastmod>2016-08-24T21:18:21+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/usage/using-a-scenario-file/</loc>
-    <lastmod>2016-08-24T21:05:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/setup/getting-started/</loc>
-    <lastmod>2016-08-24T16:27:03+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/setup/installation/</loc>
-    <lastmod>2016-08-24T16:27:03+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/usage/command-line/</loc>
-    <lastmod>2016-08-24T16:26:56+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/usage/configuration/</loc>
-    <lastmod>2016-08-24T16:26:56+01:00</lastmod>
+    <loc>https://corcel.io/spf13-vim-3-0-release-and-new-website/</loc>
+    <lastmod>2015-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://corcel.io/downloads/</loc>
-  </url>
-  
-  <url>
-    <loc>https://corcel.io/</loc>
   </url>
   
 </urlset>
