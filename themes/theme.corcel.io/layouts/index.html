@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        {{ partial "header" . }}
-    </head>
-    <body>
-        <div class="navbar navbar-default navbar-fixed-top">
-            {{ partial "navbar" . }}
-        </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-4">
-                    {{ partial "menu" . }}
-                </div>
-                <div class="col-lg-9 col-md-9 col-sm-8">
-                    <div class="page-header">
-                        {{ range where .Site.Pages "Type" "index" }}
-                        {{ .Content }}
-                        {{ end }}
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3">
-                        {{ partial "footer" . }}
-                    </div>
+<head>
+    {{ partial "header" . }}
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        {{ partial "navbar" . }}
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="jumbotron">
+                    <h1>A Performance Testing Tool</h1>
+                    <h1>Simple, Powerful and Scalable</h1>
+                    <p>
+                    <a class="btn btn-primary btn-lg" href="http://docs.corcel.io" role="button">Learn more</a>
+                    <a class="btn btn-primary btn-lg" href="/downloads" role="button">Install</a>
+                    </p>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
 {{ partial "footer_js" . }}
