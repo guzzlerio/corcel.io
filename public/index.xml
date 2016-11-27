@@ -46,7 +46,7 @@
 
                 &lt;div class=&#34;row&#34;&gt;
                     &lt;div class=&#34;col-lg-12 col-md-1 col-sm-12&#34;&gt;
-                        &lt;img src=&#34;{{.Site.BaseURL}}/images/oc_icons/icon_darwin.png&#34;&gt;
+                        &lt;img src=&#34;{{.Site.BaseURL}}/images/os_icons/icon_darwin.png&#34;&gt;
                     &lt;/div&gt;
                     &lt;div class=&#34;col-lg-12 col-md-12 col-sm-12&#34;&gt;
                         &lt;h2&gt;Mac OS X&lt;/h2&gt;
