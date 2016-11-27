@@ -45,10 +45,10 @@
                 &lt;p&gt;Currently only the latest release of corcel is available.&lt;/a&gt;
 
                 &lt;div class=&#34;row&#34;&gt;
-                    &lt;div class=&#34;col-lg-1 col-md-1 col-sm-12&#34;&gt;
+                    &lt;div class=&#34;col-lg-2 col-md-2 col-sm-12&#34;&gt;
                         &lt;img src=&#34;{{.Site.BaseURL}}/images/os_icons/icon_darwin.png&#34;&gt;
                     &lt;/div&gt;
-                    &lt;div class=&#34;col-lg-12 col-md-12 col-sm-12&#34;&gt;
+                    &lt;div class=&#34;col-lg-10 col-md-10 col-sm-12&#34;&gt;
                         &lt;h2&gt;Mac OS X&lt;/h2&gt;
                         &lt;p&gt;
                             &lt;a href=&#34;https://github.com/guzzlerio/corcel/releases/download/latest/darwin_386_corcel&#34;&gt;32-bit&lt;/a&gt; | 
@@ -57,10 +57,10 @@
                     &lt;/div&gt;
                 &lt;/div&gt;
                 &lt;div class=&#34;row&#34;&gt;
-                    &lt;div class=&#34;col-lg-1 col-md-1 col-sm-12&#34;&gt;
+                    &lt;div class=&#34;col-lg-2 col-md-2 col-sm-12&#34;&gt;
                         &lt;img src=&#34;{{.Site.BaseURL}}/images/os_icons/icon_linux.png&#34;&gt;
                     &lt;/div&gt;
-                    &lt;div class=&#34;col-lg-12 col-md-12 col-sm-12&#34;&gt;
+                    &lt;div class=&#34;col-lg-10 col-md-10 col-sm-12&#34;&gt;
                         &lt;h2&gt;Linux&lt;/h2&gt;
                         &lt;p&gt;
                             &lt;a href=&#34;https://github.com/guzzlerio/corcel/releases/download/latest/linux_386_corcel&#34;&gt;32-bit&lt;/a&gt; | 
