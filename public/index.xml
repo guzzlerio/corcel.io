@@ -41,13 +41,21 @@
     &lt;div class=&#34;container&#34;&gt;
         &lt;div class=&#34;row&#34;&gt;
             &lt;div class=&#34;col-lg-12 col-md-12 col-sm-12&#34;&gt;
-                {{ $urlPre := &#34;https://api.github.com&#34; }}
-                {{ $gistJ := getJSON $urlPre &#34;/repos/guzzlerio/deride/tags&#34; }}
-                {{ range first 5 $gistJ }}
-                &lt;a href=&#34;{{ .html_url }}&#34;&gt;{{ .name }}&lt;/a&gt;
-                {{ if .public }}
-                {{ end }}
-                {{ end }}
+                &lt;h1&gt;Download Corcel&lt;/h1&gt;
+                &lt;p&gt;Currently only the latest release of corcel is available.&lt;/a&gt;
+
+                &lt;div class=&#34;row&#34;&gt;
+                    &lt;div class=&#34;col-lg-12 col-md-1 col-sm-12&#34;&gt;
+                        &lt;img src=&#34;https://corcel.io/images/oc_icons/icon_darwin.png&#34;&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;col-lg-12 col-md-12 col-sm-12&#34;&gt;
+                        &lt;h2&gt;Mac OS X&lt;/h2&gt;
+                        &lt;p&gt;
+                            &lt;a href=&#34;https://github.com/guzzlerio/corcel/releases/download/latest/darwin_386_corcel&#34;&gt;32-bit&lt;/a&gt; | 
+                            &lt;a href=&#34;https://github.com/guzzlerio/corcel/releases/download/latest/darwin_amd64_corcel&#34;&gt;64-bit&lt;/a&gt;
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
             &lt;/div&gt;
             &lt;div class=&#34;row&#34;&gt;
                 &lt;div class=&#34;col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3&#34;&gt;
