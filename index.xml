@@ -38,7 +38,7 @@
         {{ partial &#34;navbar&#34; . }}
     &lt;/div&gt;
 
-    &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;container&#34; id=&#34;downloads&#34;&gt;
         &lt;div class=&#34;row&#34;&gt;
             &lt;div class=&#34;col-lg-12 col-md-12 col-sm-12&#34;&gt;
                 &lt;h1&gt;Download Corcel&lt;/h1&gt;
@@ -46,7 +46,7 @@
 
                 &lt;div class=&#34;row&#34;&gt;
                     &lt;div class=&#34;col-lg-1 col-md-1 col-sm-12&#34;&gt;
-                        &lt;img class=&#34;img-responsive&#34; src=&#34;{{.Site.BaseURL}}/images/os_icons/icon_darwin.png&#34;&gt;
+                        &lt;h2&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;{{.Site.BaseURL}}/images/os_icons/icon_darwin.png&#34;&gt;&lt;/h2&gt;
                     &lt;/div&gt;
                     &lt;div class=&#34;col-lg-11 col-md-11 col-sm-12&#34;&gt;
                         &lt;h2&gt;Mac OS X&lt;/h2&gt;
@@ -58,7 +58,7 @@
                 &lt;/div&gt;
                 &lt;div class=&#34;row&#34;&gt;
                     &lt;div class=&#34;col-lg-1 col-md-1 col-sm-12&#34;&gt;
-                        &lt;img class=&#34;img-responsive&#34; src=&#34;{{.Site.BaseURL}}/images/os_icons/icon_linux.png&#34;&gt;
+                        &lt;h2&gt;&lt;img class=&#34;img-responsive&#34; src=&#34;{{.Site.BaseURL}}/images/os_icons/icon_linux.png&#34;&gt;&lt;/h2&gt;
                     &lt;/div&gt;
                     &lt;div class=&#34;col-lg-11 col-md-11 col-sm-12&#34;&gt;
                         &lt;h2&gt;Linux&lt;/h2&gt;
