@@ -75,11 +75,6 @@
                     &lt;/div&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
-            &lt;div class=&#34;row&#34;&gt;
-                &lt;div class=&#34;col-lg-9 col-md-9 col-sm-8 col-lg-offset-3 col-md-offset-3&#34;&gt;
-                    {{ partial &#34;footer&#34; . }}
-                &lt;/div&gt;
-            &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/body&gt;
