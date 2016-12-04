@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://corcel.io/</loc>
+    <loc>http://corcel.io/</loc>
     <lastmod>2015-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://corcel.io/spf13-vim-3-0-release-and-new-website/</loc>
+    <loc>http://corcel.io/spf13-vim-3-0-release-and-new-website/</loc>
     <lastmod>2015-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://corcel.io/downloads/</loc>
+    <loc>http://corcel.io/downloads/</loc>
   </url>
   
 </urlset>
