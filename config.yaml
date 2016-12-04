@@ -20,13 +20,13 @@ params:
   permalink:   "#"
   siteLinks:
       - Label:   Downloads
-        URL:     https://corcel.io/downloads
+        URL:     http://corcel.io/downloads
       - Label:   Documentation
         URL:     http://docs.corcel.io
       - Label:   Blog
-        URL:     https://blog.corcel.io
+        URL:     http://blog.corcel.io
       - Label:   Tutorials
-        URL:     https://blog.corcel.io/tutorials
+        URL:     http://tutorials.corcel.io
 
   social:
     github:    guzzlerio
