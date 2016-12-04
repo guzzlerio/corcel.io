@@ -1,15 +1,19 @@
-#downloads.h2{
-    margin-top:0;
+.btn-space {
+    padding: 1px;
+}
+
+#downloads.h2 {
+    margin-top: 0;
 }
 
 img.logo {
-    width:40px;
-    margin-top:5px;
-    margin-right:10px;
-
+    width: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
 }
+
 .just-padding {
-  padding: 15px;
+    padding: 15px;
 }
 
 .table-of-contents {
@@ -17,38 +21,38 @@ img.logo {
 }
 
 .list-group.table-of-contents {
-  padding: 0;
-  overflow: hidden;
+    padding: 0;
+    overflow: hidden;
 }
 
 .list-group.table-of-contents .list-group {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .list-group.table-of-contents .list-group-item {
-  border-radius: 0;
-  border-width: 1px 0 0 0;
+    border-radius: 0;
+    border-width: 1px 0 0 0;
 }
 
-.list-group.table-of-contents > .list-group-item.child-active {
+.list-group.table-of-contents> .list-group-item.child-active {
     background-color: #545454;
     color: #fbfbfb;
 }
 
-.list-group.table-of-contents > .list-group-item:first-child {
-  border-top-width: 0;
+.list-group.table-of-contents> .list-group-item:first-child {
+    border-top-width: 0;
 }
 
-.list-group.table-of-contents > .list-group > .list-group-item {
-  padding-left: 30px;
+.list-group.table-of-contents> .list-group> .list-group-item {
+    padding-left: 30px;
 }
 
 .list-group.table-of-contents .list-group-item.active {
     background-color: #be1118;
 }
 
-.list-group.table-of-contents > .list-group > .list-group > .list-group-item {
-  padding-left: 45px;
+.list-group.table-of-contents> .list-group> .list-group> .list-group-item {
+    padding-left: 45px;
 }
 
 body {
@@ -69,6 +73,7 @@ body>.navbar {
         background-color: transparent!important
     }
 }
+
 .hidden {
     display: none;
 }
@@ -76,6 +81,7 @@ body>.navbar {
 .page-header h1 {
     font-size: 4em
 }
+
 img {
-  max-width: 700px
+    max-width: 700px
 }
