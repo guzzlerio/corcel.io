@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Corcel</title>
-    <link>https://corcel.io/index.xml</link>
+    <link>http://corcel.io/index.xml</link>
     <description>Recent content on Corcel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Released under Mozilla Public License Version 2.0</copyright>
     <lastBuildDate>Fri, 06 Apr 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://corcel.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://corcel.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>index</title>
-      <link>https://corcel.io/spf13-vim-3-0-release-and-new-website/</link>
+      <link>http://corcel.io/spf13-vim-3-0-release-and-new-website/</link>
       <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://corcel.io/spf13-vim-3-0-release-and-new-website/</guid>
+      <guid>http://corcel.io/spf13-vim-3-0-release-and-new-website/</guid>
       <description>&lt;p&gt;Content of the file goes Here&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://corcel.io/downloads/</link>
+      <link>http://corcel.io/downloads/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://corcel.io/downloads/</guid>
+      <guid>http://corcel.io/downloads/</guid>
       <description>&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 

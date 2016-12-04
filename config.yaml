@@ -1,4 +1,4 @@
-baseUrl:        https://corcel.io
+baseUrl:        http://corcel.io
 languageCode:   en-gb
 title:          Corcel
 theme:          theme.corcel.io
