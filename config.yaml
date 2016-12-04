@@ -6,7 +6,7 @@ canonifyUrls:   true
 params:
   # General information
   author:      Guzzler.io
-  description: Corcel - Performance Testing Tool
+  description: "Corcel - Performance Testing Tool"
   copyright:   Released under Mozilla Public License Version 2.0
 
   # Repository
